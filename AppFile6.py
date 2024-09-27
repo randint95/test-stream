@@ -97,6 +97,7 @@ if submit_button:
 st.title("掲示板")
 st.write("この掲示板サイトはとあるプログラミング初心者が作ったサイトです。")
 st.write("投稿は自由にしてもらって構いませんが、公序良俗に反するような投稿は削除させていただきます。")
+st.write("注意:サイトの性質上投稿は時々すべて消去されるのでメモ代わり等にはできません。")
 posts = get_posts()
 if posts:
     for post in posts:
