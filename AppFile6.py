@@ -95,6 +95,8 @@ if submit_button:
 
 # メインエリアに投稿リストを表示
 st.title("掲示板")
+st.write("この掲示板サイトはとあるプログラミング初心者が作ったサイトです。")
+st.write("投稿は自由にしてもらって構いませんが、公序良俗に反するような投稿は削除させていただきます。")
 posts = get_posts()
 if posts:
     for post in posts:
