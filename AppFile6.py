@@ -70,8 +70,8 @@ st.sidebar.title("管理者ログイン")
 admin_password = st.sidebar.text_input("パスワード", type="password")
 is_admin = False
 
-# 簡単なパスワード認証（パスワードは 'admin' に設定）
-if admin_password == 'SPACEBOY':
+# 簡単なパスワード認証（パスワードは 'admin99' に設定）
+if admin_password == 'admin99':
     is_admin = True
     st.sidebar.success("管理者としてログインしました。")
 else:
